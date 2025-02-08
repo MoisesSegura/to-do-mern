@@ -1,1 +1,4 @@
-node_modules
+# Ignorar dependencias
+node_modules/
+dist/
+.env
