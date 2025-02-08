@@ -9,7 +9,7 @@ import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div className="bg-zinc-900 h-screen">
+    <div className="bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px] h-screen">
       <Navbar />
       <div className="container mx-auto py-4 px-20">
         <TaskContextProvider>

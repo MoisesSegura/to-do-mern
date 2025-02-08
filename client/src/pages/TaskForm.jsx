@@ -53,7 +53,7 @@ function TaskForm() {
             <h1 className="text-xl font-bold uppercase text-center">
               {params.id ? "Edit Task" : "New Task"}
             </h1>
-            <label className="block">title</label>
+            <label className="block">Title</label>
             <input
               type="text"
               name="title"
@@ -63,7 +63,7 @@ function TaskForm() {
               value={values.title}
             />
 
-            <label className="block">description</label>
+            <label className="block">Description</label>
             <textarea
               name="description"
               rows="3"
